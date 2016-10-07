@@ -13,7 +13,7 @@ Create Message:-
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: POST
 	Headers: ContentType = application/json
-	PAYLOAD: {
+	Data: {
 		"author": "Rakshith",
 		"date": "2016-10-07T16:59:24.929",
 		"message": "Hello World!"
@@ -37,7 +37,7 @@ Update message:-
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: PUT
 	Headers: ContentType = application/json
-	PAYLOAD: {
+	Data: {
 		"author": "Rakshith",
 		"date": "2016-10-07T16:59:24.929",
 		"message": "Hello World!",
