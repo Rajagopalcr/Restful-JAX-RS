@@ -20,16 +20,19 @@ Create Message -------
 
 
 Get all messages ------
+
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: GET
 	Headers: ContentType = application/json
 	
 Get message ------
+
 	URI: http://localhost:8080/messender/webapi/messages/1
 	METHOD: GET
 	Headers: ContentType = application/json
 	
 Update message	-------
+
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: PUT
 	Headers: ContentType = application/json
@@ -41,6 +44,7 @@ Update message	-------
 	}
 	
 Delete message --------
+
 	URI: http://localhost:8080/messender/webapi/messages/1
 	METHOD: DELETE
 	Headers: ContentType = application/json	
