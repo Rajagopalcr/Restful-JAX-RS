@@ -8,7 +8,8 @@ Messenger is a simple Restful API which covers fundamentals for the developing o
 
 Testing URLs: 
 
-Create Message -------
+Create Message:-
+
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: POST
 	Headers: ContentType = application/json
@@ -19,19 +20,19 @@ Create Message -------
 	}
 
 
-Get all messages ------
+Read all meesage:-
 
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: GET
 	Headers: ContentType = application/json
 	
-Get message ------
+Read message:-
 
 	URI: http://localhost:8080/messender/webapi/messages/1
 	METHOD: GET
 	Headers: ContentType = application/json
 	
-Update message	-------
+Update message:-
 
 	URI: http://localhost:8080/messender/webapi/messages
 	METHOD: PUT
@@ -43,7 +44,7 @@ Update message	-------
 		"id":1
 	}
 	
-Delete message --------
+Delete message:-
 
 	URI: http://localhost:8080/messender/webapi/messages/1
 	METHOD: DELETE
